@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N04W0P994F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-N04W0P994F');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Multi-language NFT marketplace directory">
+    
+    <!-- 多语言支持 -->
+    <script src="https://cdn.jsdelivr.net/npm/i18next@21.6.10/i18next.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/i18next-browser-languagedetector@6.1.3/i18nextBrowserLanguageDetector.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-i18next@1.2.1/jquery-i18next.min.js"></script>
+    
+    <!-- 样式 -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- 结构化数据 -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "NFTMarketHub",
+      "url": "https://nftmarkethub.xyz",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://nftmarkethub.xyz/?q={search_term}",
+        "query-input": "required name=search_term"
+      }
+    }
+    </script>
+</head>
+<body>
+    <!-- 语言切换器 -->
+    <div class="language-switcher">
+        <button id="langBtn" aria-label="Language selector">
+            <span class="flag-icon" id="currentFlag"></span>
+            <span id="currentLang">EN</span>
+            <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="lang-dropdown">
+            <a href="#" data-lang="en"><span class="flag-icon flag-icon-us"></span> English</a>
+            <a href="#" data-lang="zh"><span class="flag-icon flag-icon-cn"></span> 中文</a>
+            <!-- 其他11种语言... -->
+        </div>
+    </div>
+
+    <!-- 头部区域 -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1 data-i18n="header.title">NFTMarketHub.xyz</h1>
+                <p data-i18n="header.subtitle">Your NFT Gateway</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#markets" data-i18n="nav.markets"></a></li>
+                    <li><a href="#resources" data-i18n="nav.resources"></a></li>
+                    <li><a href="#news" data-i18n="nav.news"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 主体内容 -->
+    <main class="container">
+        <section id="markets">
+            <h2 data-i18n="sections.markets"></h2>
+            <div class="market-grid" id="marketContainer"></div>
+        </section>
+        
+        <section id="news">
+            <h2 data-i18n="sections.news"></h2>
+            <div class="news-grid" id="newsContainer"></div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+    <a href="https://https://x.com/fLvowJ9cqv7971" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://t.me/+QG_YY8RfoV5mYjll" target="_blank"><i class="fab fa-telegram"></i></a>
+</div>
+            <p data-i18n="footer.copyright"></p>
+        </div>
+    </footer>
+
+    <!-- 脚本 -->
+    <script src="/assets/js/i18n.js"></script>
+    <script src="/assets/js/main.js" type="module"></script>
+    <script src="/assets/js/analytics.js" async></script>
+    
+    <!-- AdSense (替换YOUR_ID) -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9560501564344468"
+     crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+NFTMarketHub/
+├── .github/
+│   └── workflows/
+│       ├── update.yml          # 每日自动更新数据
+│       └── deploy.yml         # 自动部署配置
+├── assets/
+│   ├── css/
+│   │   └── style.css          # 完整样式表
+│   ├── js/
+│   │   ├── main.js            # 主功能脚本
+│   │   ├── i18n.js            # 多语言核心
+│   │   └── analytics.js       # 统计代码
+│   └── images/
+│       ├── logos/             # 平台LOGO
+│       └── banner.jpg         # 首页背景
+├── locales/                   # 多语言文件
+│   ├── en.json                # 英语
+│   ├── zh.json                # 中文
+│   ├── es.json                # 西班牙语
+│   └── ...(共13种语言)        
+├── data/
+│   ├── markets.json           # 市场数据
+│   └── news.json              # 新闻数据
+├── index.html                 # 主页面
+├── CNAME                      # 自定义域名配置
+├── robots.txt                 # 搜索引擎规则
+├── sitemap.xml                # 网站地图
+└── README.md                  # 部署说明书
+
+far1006.github.io
+
+
+英语、中文、西班牙语、法语、德语、日语、俄语、葡萄牙语、阿拉伯语、韩语、意大利语、荷兰语、土耳其语
